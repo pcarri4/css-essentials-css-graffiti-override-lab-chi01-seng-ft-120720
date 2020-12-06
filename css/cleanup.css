@@ -1,5 +1,18 @@
 /* write your override styles here */
 
-#wall tag-1 {
+#wall .tag-1 {
     display: none;
 }
+
+#wall div#tag-2
+{
+  display: none;
+}
+
+#wall div#tag-2 + div#tag-3[class="slick wicked"]
+{
+  display: none;
+}
+
+
+
